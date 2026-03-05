@@ -1,0 +1,6 @@
+region               = "ap-south-1"
+availability_zone    = "ap-south-1a"
+service_name         = "nginx-default-vpc"
+instance_type        = "t2.micro"
+key_name             = "Devops-key-main"
+allowed_ingress_cidr = "0.0.0.0/0"

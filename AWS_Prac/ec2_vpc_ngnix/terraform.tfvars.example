@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and edit values as needed.
+
+region            = "ap-south-1"
+availability_zone = "ap-south-1a"
+
+# Set your existing EC2 key pair name if you want SSH access.
+key_pair_name = "your-key-pair-name"
+
+# Better security: use your public IP in /32 format.
+ssh_allowed_cidr = "203.0.113.10/32"

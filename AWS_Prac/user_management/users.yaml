@@ -1,0 +1,16 @@
+users:
+  - name: aman
+    group: developer
+    policies:
+      - arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess
+      - arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+
+  - name: ali
+    group: devops
+    policies:
+      - arn:aws:iam::aws:policy/AdministratorAccess
+
+  - name: ritika
+    group: audit
+    policies:
+      - arn:aws:iam::aws:policy/ReadOnlyAccess
